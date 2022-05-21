@@ -1,0 +1,25 @@
+{
+  "short_name" : " Application React " ,
+  "name" : " Créer un exemple d'application React " ,
+  "icônes" : [
+    {
+      "src" : " favicon.ico " ,
+      "tailles" : " 64x64 32x32 24x24 16x16 " ,
+      "type" : " image/x-icon "
+    },
+    {
+      "src" : " logo192.png " ,
+      "type" : " image/png " ,
+      "tailles" : " 192x192 "
+    },
+    {
+      "src" : " logo512.png " ,
+      "type" : " image/png " ,
+      "tailles" : " 512x512 "
+    }
+  ],
+  "start_url" : " . " ,
+  "affichage" : " autonome " ,
+  "theme_color" : " #000000 " ,
+  "couleur_fond" : " #ffffff "
+}

@@ -1,0 +1,12 @@
+version : " 2 "
+prestations :
+  frontal :
+    construction : ./interface
+    dépend_de :
+      - back -end
+    ports :
+      - " 3000:3000 "
+  back -end :
+    construction : ./backend
+    ports :
+      - " 8000:8000 "

@@ -1,0 +1,23 @@
+# tirer l'image de base
+Nœud DE :dernier
+
+# définir le sens de travail
+RÉP TRAVAIL /app
+
+# ajouter `/app/node_modules/.bin` à $PATH
+ENV PATH /app/node_modules/.bin:$PATH
+ENV CHOKIDAR_USEPOLLING=vrai
+# installer les dépendances de l'application
+COPIER package.json ./
+
+COPIER package-lock.json ./
+
+RUN npm config set unsafe-perm true
+
+Exécutez l'installation de npm
+
+# ajouter une application
+COPIER . ./
+
+# démarrer l'application
+CMD [ "npm" , "démarrer" ]
